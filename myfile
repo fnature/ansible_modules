@@ -1,0 +1,7 @@
+#some other stuffs
+truc=mystuff
+bla
+
+#bloublou
+proxy=!/
+no_proxy=1.1.1.1,192.168.1.0/24,3.3.3.4,bla,10.1.1.1

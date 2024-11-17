@@ -1,0 +1,11 @@
+- name: Update key-value pair in configuration file
+  hosts: localhost
+  tasks:
+    - name: Ensure no_proxy contains the value
+      append_key_value:
+        file_path: myfile
+        key: no_proxy
+        value: 
+          - "192.168.1.0/24"
+          - "10.1.1.1"
+
